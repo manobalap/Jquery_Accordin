@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	border:none;
+}
+body{
+	font:normal 12px/18px Arial, Helvetica, sans-serif;
+}
+/* Accordin Plugin */
+h2{
+	background-color:#FF6666;
+	color:#fff;
+	font:normal 30px/35px Arial, Helvetica, sans-serif;
+	margin-bottom:40px;
+	padding:20px 0;
+	text-align:center;
+}
+h3:after{
+	border: 1px solid #f5f5f5;
+	border-radius: 3px;
+	content: "+";
+	color: #fff;
+	float: right;
+	margin-top: -3px;
+	padding: 2px 7px;
+	width: 7px;
+}
+h3.active-header:after{
+	content: "-";
+	font-family: cursive;
+
+	color: #fff;
+}
+.footer{
+	background-color:#FF6666;
+	color:#fff;
+	padding:20px 0;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	text-align:center;
+	width:100%;
+}
+.accordin{
+	width:500px;
+	margin:10px auto;
+}
+.accord-header{
+	background-color:#2891E4;
+	border:1px solid #2891E4;
+	color:#fff;
+	cursor:pointer;
+	margin:2px 0 0px;
+	padding:10px;
+}
+.active-header{
+	
+}
+.accord-header:hover{
+	background-color:#3fa5f5;
+	border:1px solid #2891E4;
+}
+.accord-content{
+	border:1px solid #2891E4;
+	border-top:none;
+	display:none;
+	padding:10px;
+}
+.accordin .active{
+	display:block;
+}
+
