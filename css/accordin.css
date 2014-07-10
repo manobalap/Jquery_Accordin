@@ -17,22 +17,6 @@ h2{
 	padding:20px 0;
 	text-align:center;
 }
-h3:after{
-	border: 1px solid #f5f5f5;
-	border-radius: 3px;
-	content: "+";
-	color: #fff;
-	float: right;
-	margin-top: -3px;
-	padding: 2px 7px;
-	width: 7px;
-}
-h3.active-header:after{
-	content: "-";
-	font-family: cursive;
-
-	color: #fff;
-}
 .footer{
 	background-color:#FF6666;
 	color:#fff;
@@ -55,8 +39,21 @@ h3.active-header:after{
 	margin:2px 0 0px;
 	padding:10px;
 }
-.active-header{
-	
+.accordin h3.accord-header span{
+	background:url(../img/icon.png) 6px 7px no-repeat;
+	border: 1px solid #f5f5f5;
+	border-radius: 3px;
+	color: #fff;
+	float: right;
+	height:19px;
+	margin-top: -3px;
+	padding: 2px 7px;
+	width: 7px;
+}
+.accordin h3.active-header span{
+	background-position:6px -13px;
+	font-family: cursive;
+	color: #fff;
 }
 .accord-header:hover{
 	background-color:#3fa5f5;

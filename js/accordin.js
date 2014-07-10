@@ -13,12 +13,11 @@ $.fn.accordin = function(options) {
 	});
 	
 	var defaults = {
-					 collapse: true
-					 /*arrow: true*/
+					 collapse: true,
+					 arrow: true
 				   };
 				   
 	var settings = $.extend(defaults, options);
-	
 	return this.each( function(){
 		if(settings.collapse)
 		{
@@ -26,7 +25,7 @@ $.fn.accordin = function(options) {
 		}
 		if(settings.arrow)
 		{
-			$('.accordin h3').css({});
+			$('.accordin h3').append('<span class="icon"></span>');
 		}
 	});
 
