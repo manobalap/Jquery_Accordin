@@ -56,7 +56,11 @@ h2{
 	color: #fff;
 }
 .accord-header:hover{
-	background-color:#3fa5f5;
+	background-color:#333;
+	border:1px solid #333;
+}
+h3.active-header:hover{
+	background-color:#2891E4;
 	border:1px solid #2891E4;
 }
 .accord-content{
